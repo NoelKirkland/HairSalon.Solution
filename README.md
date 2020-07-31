@@ -16,19 +16,38 @@ This project will alow a salon owner to keep track of their customers, as well a
 ## Setup/Installation Requirements <a name="1"></a>
 
 * _Install the .NET framework_
-  1. This program utilizes .NET version 3.1, and requires [this framework to be pre-installed](https://dotnet.microsoft.com/download/dotnet-core/3.1)
+  1. _This program utilizes .NET version 3.1, and requires [this framework to be pre-installed](https://dotnet.microsoft.com/download/dotnet-core/3.1)_
 
-*
+* _Install and configure MySQL_
+  1. _This program utilizes MySQL Community Server version 8.0.15 and requires [this to be pre-installed](https://dev.mysql.com/downloads/file/?id=484914). Click the link at the bottom that reads "No thanks, just start my download"_
+  2. _Use Legacy Password Encryption and set password to "epicodus"_
+  3. _Click "Finish_
+  
+
+
 * _Download this application from HitHub_
-  1. _Open the following web address in your browser: `https://github.com/NoelKirkland`_
+  1. _Open the following web address in your browser: **`https://github.com/NoelKirkland`**_
   2. _Click on the button labeled_ Repositories
-  3. _Navigate into the `HairSalon.Solution` repository and click the green button labeled "Clone or download" and download the zip to your computer_
+  3. _Navigate into the **`HairSalon.Solution`** repository and click the green button labeled "Clone or download" and download the zip to your computer_
 
-* _Open and run the application_
+* _Install the MySQL database_
   1. _Open the downloaded application in a text editor ([V.S. Code preferred](https://code.visualstudio.com/))_
-  2. _Open a new terminal in your text editor (Ctrl+\` in V.S. Code) and run command **`> cd HairSalon`**_
-  3. _Now that we are in the Bakery directory you will run the command **`> dotnet restore`**_
-  4. _Once the "obj" folder has initialized you can now run **`> dotnet run`** to use the application in your terminal_
+  2. _Open a new terminal in your text editor (Ctrl+\` in V.S. Code) and run command `> echo 'export PATH="$PATH:/usr/local/mysql/bin"' >> ~/.zprofile`_
+  3. _Enter the command `> source ~/.zprofile` to confirm MsSQL has been installed_
+  4. _Connect to MySQL by running the command `> mysql -uroot -pepicodus`_
+  5. _Install the necessary MySQL database by copying the following code block and entering it into your terminal:_
+
+      ```
+
+      ```
+
+  6. _Exit MySQL by running the command `> exit`_
+
+* _Run the application_
+  1. _In the terminal, navigate to the project directory by running the command `> cd HairSalon`_
+  2. _Now that we are in the HairSalon directory you will run the command `> dotnet restore`_
+  3. _Once the "obj" folder has initialized you will run the command `> dotnet run`_
+  4. _Go to http://localhost:5000/ in your preferred browser to use the application_
 
 
 ## Specifications <a name="2"></a>
