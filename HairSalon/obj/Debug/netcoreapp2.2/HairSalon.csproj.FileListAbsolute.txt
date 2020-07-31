@@ -25,3 +25,6 @@
 /Users/noelkirkland/Desktop/HairSalon.Solution/HairSalon/obj/Debug/netcoreapp2.2/Razor/Views/Clients/Create.g.cshtml.cs
 /Users/noelkirkland/Desktop/HairSalon.Solution/HairSalon/obj/Debug/netcoreapp2.2/Razor/Views/Clients/Details.g.cshtml.cs
 /Users/noelkirkland/Desktop/HairSalon.Solution/HairSalon/obj/Debug/netcoreapp2.2/Razor/Views/Clients/Index.g.cshtml.cs
+/Users/noelkirkland/Desktop/HairSalon.Solution/HairSalon/obj/Debug/netcoreapp2.2/Razor/Views/Stylists/Create.g.cshtml.cs
+/Users/noelkirkland/Desktop/HairSalon.Solution/HairSalon/obj/Debug/netcoreapp2.2/Razor/Views/Stylists/Details.g.cshtml.cs
+/Users/noelkirkland/Desktop/HairSalon.Solution/HairSalon/obj/Debug/netcoreapp2.2/Razor/Views/Stylists/Index.g.cshtml.cs
