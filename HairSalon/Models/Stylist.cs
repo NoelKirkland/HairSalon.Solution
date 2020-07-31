@@ -10,8 +10,8 @@ namespace HairSalon.Models
     {
       this.Clients = new HashSet<Client>();
     }
-    // [DisplayName("Name of Stylist")]
     public string Name { get; set; }
+    [DisplayName("station number")]
     public int StationNumber { get; set; }
     public string Specialty { get; set; }
     public int StylistId { get; set; }
