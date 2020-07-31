@@ -37,9 +37,26 @@ This project will alow a salon owner to keep track of their customers, as well a
   4. _Connect to MySQL by running the command `> mysql -uroot -pepicodus`_
   5. _Install the necessary MySQL database by copying the following code block and entering it into your terminal:_
 
-      ```
+```
+    DROP DATABASE IF EXISTS `noel_kirkland`;
+    CREATE DATABASE `noel_kirkland` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */;
+    USE `noel_kirkland`;
+    CREATE TABLE `clients` (
+      `ClientId` int(11) NOT NULL AUTO_INCREMENT,
+      `Name` varchar(255) DEFAULT NULL,
+      `PhoneNumber` int(11) DEFAULT NULL,
+      `StylistId` int(11) DEFAULT '0',
+      PRIMARY KEY (`ClientId`)
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+    CREATE TABLE `stylists` (
+      `StylistId` int(11) NOT NULL AUTO_INCREMENT,
+      `Name` varchar(255) DEFAULT NULL,
+      `StationNumber` int(11) DEFAULT NULL,
+      `Specialty` varchar(255) DEFAULT NULL,
+      PRIMARY KEY (`StylistId`)
+    ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-      ```
+```
 
   6. _Exit MySQL by running the command `> exit`_
 
