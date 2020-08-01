@@ -2,12 +2,12 @@
 
 ### By Noel Kirkland, 7/31/2020
 
-[Setup](#1)
-[Specs](#2)
-[Bugs](#3)
-[Contact](#4)
-[Tech](#5)
-[License](#6)
+•[Setup](#1)<br>
+•[Specs](#2)<br>
+•[Bugs](#3)<br>
+•[Contact](#4)<br>
+•[Tech](#5)<br>
+•[License](#6)
 
 ## Description
 
