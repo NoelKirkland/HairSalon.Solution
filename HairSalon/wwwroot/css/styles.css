@@ -1,3 +1,16 @@
+body {
+	background-image: url("https://www.headcurve.com/wp-content/uploads/2019/08/hair-salon-aug202019-min.jpg");
+	background-repeat: no-repeat;
+	background-color: #cccccc;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.center{
+	text-align: center;
+}
 
 #header {
 	top: 50px;
@@ -72,12 +85,12 @@
 .nav-menu a:hover,
 .nav-menu .active > a,
 .nav-menu li:hover > a {
-	color: #ffb03b;
+	color: #0645AD;
 	text-decoration: none;
 }
 
 .nav-menu .home-button a {
-	background: #ffb03b;
+	background: #0645AD;
 	color: #fff;
 	border-radius: 50px;
 	margin: 0 0 0 20px;
@@ -90,7 +103,7 @@
 }
 
 .nav-menu .home-button a:hover {
-	background: #ffa012;
+	background: #074196;
 	color: #fff;
 }
 
