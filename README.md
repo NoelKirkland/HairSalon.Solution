@@ -3,7 +3,6 @@
 ### By Noel Kirkland, 7/31/2020
 
 •[Setup](#1)<br>
-•[Specs](#2)<br>
 •[Bugs](#3)<br>
 •[Contact](#4)<br>
 •[Tech](#5)<br>
@@ -11,7 +10,7 @@
 
 ## Description
 
-This project will alow a salon owner to keep track of their customers, as well as their stylists, in an easy to use web application. Once set up properly, the salon owner will be able store their employee and client data in a local database and will be able to pull up the information they need at any time.
+This project will alow a salon owner to keep track of their stylists, as well as their customers, in an easy to use web application. Once set up properly, the salon owner will be able store their employee and client data in a local database and will be able to pull up the information they need at any time.
 
 ## Setup/Installation Requirements <a name="1"></a>
 
@@ -35,7 +34,8 @@ This project will alow a salon owner to keep track of their customers, as well a
   2. _Open a new terminal in your text editor (Ctrl+\` in V.S. Code) and run command `> echo 'export PATH="$PATH:/usr/local/mysql/bin"' >> ~/.zprofile`_
   3. _Enter the command `> source ~/.zprofile` to confirm MsSQL has been installed_
   4. _Connect to MySQL by running the command `> mysql -uroot -pepicodus`_
-  5. _Install the necessary MySQL database by copying the following code block and entering it into your terminal:_
+  5. _Install the necessary MySQL database by copying the code block below and entering it into your terminal_
+  6. _Once the following code block has been entered you will close MySQL by running the command `> exit`_
 
 ```
     DROP DATABASE IF EXISTS `noel_kirkland`;
@@ -58,8 +58,6 @@ This project will alow a salon owner to keep track of their customers, as well a
 
 ```
 
-  6. _Exit MySQL by running the command `> exit`_
-
 * _Run the application_
   1. _In the terminal, navigate to the project directory by running the command `> cd HairSalon`_
   2. _Now that we are in the HairSalon directory you will run the command `> dotnet restore`_
@@ -67,25 +65,24 @@ This project will alow a salon owner to keep track of their customers, as well a
   4. _Go to http://localhost:5000/ in your preferred browser to use the application_
 
 
-## Specifications <a name="2"></a>
+## Known Bugs <a name="2"></a>
 
-## Known Bugs <a name="3"></a>
+There are no known bugs at this time
 
-There are no known bugs at this time.
-
-## Support and Contact Details <a name="4"></a>
+## Support and Contact Details <a name="3"></a>
 
 If there are any issues or questions contact me at noelkirkland@gmail.com
 
-## Technologies Used <a name="5"></a>
+## Technologies Used <a name="4"></a>
 
 *  C#/.NET
+*  MySQL
 *  HTML
 *  CSS
 *  Markdown
 
 
-### License <a name="6"></a>
+### License <a name="5"></a>
 
 *This project uses the following license: [MIT](https://opensource.org/licenses/MIT)*
 
